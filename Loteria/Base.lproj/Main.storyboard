@@ -61,13 +61,17 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="lEj-In-ZyB">
-                                <rect key="frame" x="67.5" y="358" width="279.5" height="180"/>
+                                <rect key="frame" x="60.5" y="353" width="293" height="190"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="GfX-ME-jwr">
-                                        <rect key="frame" x="0.0" y="0.0" width="279.5" height="82"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="279.5" placeholderIntrinsicHeight="87" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="GfX-ME-jwr">
+                                        <rect key="frame" x="0.0" y="0.0" width="293" height="87"/>
                                         <subviews>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfz-8g-rNd">
-                                                <rect key="frame" x="0.0" y="0.0" width="82.5" height="82"/>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="87" placeholderIntrinsicHeight="87" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfz-8g-rNd">
+                                                <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="87" id="BfJ-wa-Xaa"/>
+                                                    <constraint firstAttribute="height" constant="87" id="q0m-x3-dl1"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
@@ -75,8 +79,12 @@
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzm-AA-Y5I">
-                                                <rect key="frame" x="98.5" y="0.0" width="82.5" height="82"/>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="87" placeholderIntrinsicHeight="87" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzm-AA-Y5I">
+                                                <rect key="frame" x="103" y="0.0" width="87" height="87"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="87" id="XIN-HY-jse"/>
+                                                    <constraint firstAttribute="height" constant="87" id="fhO-BY-lxv"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
@@ -84,8 +92,12 @@
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjs-Hy-yCI">
-                                                <rect key="frame" x="197" y="0.0" width="82.5" height="82"/>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="87" placeholderIntrinsicHeight="87" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjs-Hy-yCI">
+                                                <rect key="frame" x="206" y="0.0" width="87" height="87"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="87" id="OBF-4Y-tgJ"/>
+                                                    <constraint firstAttribute="height" constant="87" id="XgR-MA-yko"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
@@ -94,15 +106,16 @@
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="82" id="kwz-KC-Dva"/>
-                                        </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="MYs-5e-gMw">
-                                        <rect key="frame" x="0.0" y="98" width="279.5" height="82"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="279.5" placeholderIntrinsicHeight="87" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="MYs-5e-gMw">
+                                        <rect key="frame" x="0.0" y="103" width="293" height="87"/>
                                         <subviews>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeH-wc-UdY">
-                                                <rect key="frame" x="0.0" y="0.0" width="82.5" height="82"/>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="87" placeholderIntrinsicHeight="87" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AeH-wc-UdY">
+                                                <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="87" id="dZh-hF-lfc"/>
+                                                    <constraint firstAttribute="width" constant="87" id="fHb-Hf-NEX"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
@@ -110,8 +123,12 @@
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzQ-gi-znK">
-                                                <rect key="frame" x="98.5" y="0.0" width="82.5" height="82"/>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="87" placeholderIntrinsicHeight="87" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzQ-gi-znK">
+                                                <rect key="frame" x="103" y="0.0" width="87" height="87"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="87" id="Pn8-FV-VHE"/>
+                                                    <constraint firstAttribute="height" constant="87" id="oZY-Ty-vIu"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
@@ -119,8 +136,12 @@
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlH-VH-BRF">
-                                                <rect key="frame" x="197" y="0.0" width="82.5" height="82"/>
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="87" placeholderIntrinsicHeight="87" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlH-VH-BRF">
+                                                <rect key="frame" x="206" y="0.0" width="87" height="87"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="87" id="6Tl-4q-sW1"/>
+                                                    <constraint firstAttribute="width" constant="87" id="OUP-jM-tNJ"/>
+                                                </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="60">
                                                     <backgroundConfiguration key="background" image="ball"/>
@@ -129,9 +150,6 @@
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="82" id="h0z-2T-Isk"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
